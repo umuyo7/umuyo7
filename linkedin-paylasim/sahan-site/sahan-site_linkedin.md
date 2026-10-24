@@ -3,27 +3,20 @@
 Görseller (bu sırayla): `sahan-site_01.png` → `sahan-site_02.png` → `sahan-site_03.png` → `sahan-site_04.png`
 
 Not: Marka adı "Stüdyo" olarak maskelendi. Telefon, e-posta ve adres maskeli. Fotoğraflar gerçek çekimler değil, soyut yer tutucular. Paket ve blog içerikleri uydurmadır.
-Bu site Şahan Pro yönetim panelinin herkese açık yüzü. Panel bir sonraki hafta ayrı paylaşılıyor.
+Bu site Şahan Pro yönetim panelinin herkese açık yüzü.
 
 ---
 
-Bir düğün fotoğrafçısının web sitesi, fotoğraflar kadar şık görünmeli. Ama ziyaretçinin fiyat sormak için WhatsApp'a gitmek zorunda kalmaması da en az o kadar önemli.
+Geçtiğimiz aylarda bir düğün fotoğrafçısının web sitesini yaptım.
 
-Bir fotoğraf stüdyosu için koyu/altın tonlarda bir web sitesi tasarladım. Hedefim, çiftin siteye girdiği andan rezervasyon talebi bırakacağı ana kadar aradığı her şeyi tek sayfada bulmasıydı.
+Fotoğrafçının sitesinde en önemli şey elbette fotoğraflar. Ama ziyaretçinin paketleri, fiyat almanın yolunu ve iletişim bilgisini de kolayca bulabilmesi gerekiyor. Ben de siteyi, bir çiftin girdiği andan rezervasyon talebi bırakacağı ana kadar aradığı her şeyi tek sayfada bulacağı şekilde kurguladım.
 
-Sitede neler var:
-• Masaüstü ve mobil için ayrı görsellerle açılan giriş bölümü
-• Dış çekim, düğün, nişan ve kına için sekmeli konsept tanıtımları
-• Paket kartları ve "özel teklif" seçeneği
-• Kategoriye göre filtrelenen galeri ve büyütülebilen fotoğraflar
-• Sıkça sorulan sorular, blog yazıları ve Google yorumları
-• Rezervasyon formu, WhatsApp butonu ve SMS koduyla müşteri girişi
-• KVKK uyumlu çerez onayı
+Tasarımda koyu ve altın tonlarını kullandım. Giriş bölümü masaüstünde ve telefonda farklı görsellerle açılıyor. Dış çekim, düğün, nişan ve kına konseptleri sekmelerle anlatılıyor, paketler kartlar halinde duruyor. Galeri kategoriye göre filtrelenebiliyor. Aşağıda sık sorulan sorular, blog yazıları ve Google yorumları var. Rezervasyon formu, WhatsApp butonu ve KVKK'ya uygun çerez onayı da sitede.
 
-İçerikleri (paketler, galeri, blog) stüdyo kod bilmeden bir yönetim panelinden kendisi güncelliyor.
+Paketleri, galeriyi ve blogu stüdyo kod bilmeden kendisi güncelleyebiliyor. İçerikler bir yönetim panelinden geliyor.
 
-Teknolojiler: HTML, CSS, JavaScript, Jinja2, FastAPI, Strapi CMS.
+Sitede HTML, CSS ve JavaScript kullandım, arka tarafta FastAPI ve Strapi CMS çalışıyor.
 
-Sizce bir hizmet sitesinde ziyaretçiyi en çok ne ikna ediyor: fotoğraflar mı, fiyatlar mı, yorumlar mı?
+Bir hizmet sitesine girdiğinizde ilk neye bakıyorsunuz: fotoğraflara mı, fiyatlara mı?
 
 #webtasarım #webgeliştirme #frontend #kobi #fotoğrafçılık

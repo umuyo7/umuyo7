@@ -13,8 +13,6 @@ Görseller 1440x900 PNG; LinkedIn'de aynı gönderiye çoklu görsel olarak, aş
 | 6 | 1 Aralık 2026 | *Boş: No.27 Event web sitesi (HTML dosyaları bekleniyor)* | — |
 
 Sıralama mantığı: Her müşteri için önce herkesin görebildiği web sitesi, bir hafta sonra arkasındaki sistem paylaşılır.
-İkinci gönderi ilkine atıf yapar ("geçen hafta sitesini paylaşmıştım..."), böylece takip edenler için küçük bir dizi oluşur.
-Şahan Pro metninde bu atıf hazır. Bereket Sofram metnine istersen ilk satır olarak "Geçen hafta bu lokantanın menü sitesini paylaşmıştım, bu hafta mutfağın ve kasanın arkasındaki sistemi anlatıyorum." eklenebilir.
 
 ---
 

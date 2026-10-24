@@ -7,21 +7,16 @@ Not: Hesap adları, banka adı, işlemler ve tutarlar uydurmadır. Ekstre ekran�
 
 ---
 
-Bir işletmenin "bu ay ne kazandık?" sorusunu cevaplamak için banka ekstrelerini satır satır Excel'e kopyalaması gerekiyordu.
+Geçtiğimiz aylarda bir işletme için gelir-gider uygulaması geliştirdim.
 
-Sorun sadece zaman değildi. Aynı ekstre iki kez girilince gelir iki katı görünüyordu. Kredi kartı ödemesi gider sanılıyor, hesaplar arası transferler rapora karışıyordu.
+İşletme "bu ay ne kazandık?" sorusunu cevaplamak için banka ekstrelerini satır satır Excel'e geçiriyordu. Üstelik aynı ekstre iki kez girilince gelir iki katı görünüyor, kredi kartı ödemesi gider sanılıyordu.
 
-Bunun için bir gelir-gider uygulaması geliştirdim:
+Uygulamada banka ya da kredi kartı ekstresini (PDF, Excel veya CSV) yüklemek yetiyor. Sistem satırları okuyor ve akaryakıt, kira, fatura, kargo gibi kategorileri kendisi atıyor. Kullanıcı bir kategoriyi düzeltirse bunu öğreniyor, sonraki ekstrelerde aynı kuralı uyguluyor. Daha önce yüklenmiş satırları tanıyıp atlıyor. Hesaplar arası transferleri de rapora karıştırmıyor.
 
-📄 Banka ve kredi kartı ekstresini (PDF, Excel, CSV) yüklüyorsunuz, sistem satırları okuyup önizleme gösteriyor
-🏷 Kategoriler otomatik atanıyor (akaryakıt, kira, fatura, kargo...). Kullanıcının düzeltmeleri sonraki yüklemelerde kural olarak kullanılıyor
-🔁 Daha önce kaydedilmiş satırlar parmak iziyle tanınıp atlanıyor
-✅ Hareketler onay sırasından geçiyor, iç transferler rapora girmiyor
-📊 Genel bakış, gider analizi, abonelik takibi ve ay sonu sağlama ekranı
-👥 Çalışan ödemeleri, sanal fonlar ve kimin neyi değiştirdiğini gösteren denetim kaydı
+Bunların yanında gider analizi, abonelik takibi, ay sonu kontrol ekranı ve çalışan ödemeleri var. Kimin neyi değiştirdiği de kayıt altında tutuluyor.
 
-Teknolojiler: Python, FastAPI, PostgreSQL, SQLAlchemy, Jinja2, pdfplumber, openpyxl.
+Python (FastAPI), PostgreSQL, pdfplumber ve openpyxl kullandım.
 
-Siz işletmenizin gelir-giderini nasıl takip ediyorsunuz?
+Siz işletmenizin gelirini ve giderini nasıl takip ediyorsunuz?
 
 #python #fastapi #muhasebe #kobi #yazılım

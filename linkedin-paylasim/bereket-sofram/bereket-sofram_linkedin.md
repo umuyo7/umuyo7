@@ -8,27 +8,16 @@ Dikkat: Brief'te "PHP" yazıyordu ama güncel kod FastAPI (Python) ile yazılmı
 
 ---
 
-Aynı mutfaktan hem restoran salonuna hem de her gün onlarca firmaya yemek çıkıyorsa, işi kâğıt adisyon ve deftere bırakmak çok zor.
+Geçtiğimiz aylarda hem lokanta hem catering hizmeti veren bir işletme için yönetim sistemi geliştirdim.
 
-Birlikte çalıştığım işletme hem lokanta hem catering hizmeti veriyor. Masalar, paket siparişler, firmalara giden günlük yemekler ve tahsilatlar ayrı defterlerde tutuluyordu. Ay sonunda "hangi firma ne kadar borçlu?" sorusunun cevabını çıkarmak ciddi zaman alıyordu.
+İşletmede masalar, paket siparişler, firmalara giden günlük yemekler ve tahsilatlar ayrı ayrı tutuluyordu. Ay sonunda "hangi firma ne kadar borçlu?" sorusunun cevabını çıkarmak ciddi zaman alıyordu.
 
-Bu iki işi tek bir sistemde topladım:
+Restoran tarafında masa planı ve adisyon sistemi var. Masalar taşınabiliyor, birleştirilip bölünebiliyor. Kasa ekranını dokunmatik ekrana göre tasarladım. Nakit, kart, yemek kartı ve veresiye ile parçalı ödeme alınabiliyor. Mutfak fişi, vardiya ve gün sonu raporu da sistemde. Telefon, Trendyol Yemek ve Yemeksepeti siparişleri aynı yere düşüyor. Garson, kasiyer ve yöneticinin yetkileri ayrı.
 
-🍽 Restoran (POS):
-• Masa planı, adisyon açma, masa taşıma, birleştirme ve bölme
-• Dokunmatik kasa ekranı: nakit, kart, yemek kartı ve veresiye ile parçalı ödeme
-• Mutfak fişi, vardiya açma/kapama ve gün sonu raporu
-• Telefon, Trendyol Yemek ve Yemeksepeti paket siparişleri
-• Rol ve yetki sistemi (garson, kasiyer, yönetici)
-• Saatlik satış, ödeme yöntemi ve ürün bazında raporlar
+Catering tarafında her firmanın günlük yemek sayısı giriliyor. Tahsilatlar ve açık borçlar takip ediliyor, ay sonunda ekstreler toplu PDF olarak alınıyor. Giderler, çalışanlar ve maaşlar da buradan yönetiliyor.
 
-🚚 Catering:
-• Firma bazında günlük yemek ve mesai yemeği girişi
-• Tahsilat, açık borç ve toplu PDF ekstre
-• Gider, çalışan ve maaş takibi
+Python (FastAPI), PostgreSQL ve MariaDB kullandım. Sistem Docker üzerinde çalışıyor.
 
-Teknolojiler: Python, FastAPI, PostgreSQL, MariaDB, SQLAlchemy, Alembic, Docker.
-
-Restoran işletenler: adisyonda en çok hangi adım vakit kaybettiriyor?
+Restoran işletenlere sorayım: sizce en çok vakit hangi adımda kaybediliyor?
 
 #webgeliştirme #python #fastapi #restoran #kobi
